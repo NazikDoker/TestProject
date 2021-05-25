@@ -138,6 +138,8 @@ body {
 .image {
 	width: 219px;
 	height: 166px;
+	object-fit: contain;
+	object-position: center;
 }
 
 .name {
