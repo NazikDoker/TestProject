@@ -1,0 +1,334 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Merienda, sans-serif;
+}
+
+.main_header {
+	background-image: url(../img/main-background.png);
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+.menu {
+	width: 1200px;
+	padding-top: 30px;
+	object-position: left;
+}
+
+.menu img {
+	height: 35px;
+	width: 35px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.menu a {
+	color: #FFFFFF;
+	margin: 0 10px;
+	font-size: 12px;
+	line-height: 17px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-decoration: none;
+}
+
+.main_header h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 58px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: block;
+	margin-top: 110px;
+}
+
+.main_header h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+
+.main_header button {
+	width: 120px;
+	height: 30px;
+	background: rgba(255,255,255,0.0);
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	margin-top: 30px;
+	font-family: Merienda;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.beans_logo {
+	margin-bottom: 35px;
+	margin-top: 20px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.about_us {
+	background-color: #ffffff;
+	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.about_us h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.about_us p {
+	font-style: bold;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 1em;
+}
+
+.text {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.our_best {
+	background-image: url(../img/background2.png);
+	background-size: cover;
+	width: 100%;
+	padding-top: 80px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+
+.our_best h2 {
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.product {
+	justify-content: center;
+	align-items: center;
+}
+
+.best_price {
+	margin: 30px;
+	padding: 22px 0;
+	background: rgba(255, 255, 255, 0.65);
+	border-radius: 8px;
+	display: inline-block;
+	object-fit: contain;
+	object-position: center;
+}
+
+.image {
+	width: 219px;
+	height: 166px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.origin {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right:20px;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	margin-top: 10px;
+	margin-right:20px;
+}
+
+.footer {
+	background-color: #ffffff;
+	font-size: 12px;
+	line-height: 17px;
+	padding-top: 30px;
+	text-align: center;
+	object-position: center;
+}
+
+.footer a {
+	color: #000000;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+.header {
+	background-image: url(../img/our-cofee-head.png);
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.header h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 58px;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: block;
+	margin-top: 60px;
+}
+
+.wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	padding-top: 70px;
+}
+
+.text-block {
+text-align: center;
+padding-left: 50px;
+}
+
+.text-block h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.text-block p {
+	font-style: bold;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 1em;
+}
+
+.img-block {
+	width: 272px;
+	height: 355px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.about_beans {
+	width: 240px;
+	height: 0px;
+	border: 1px solid #000000;
+	margin: 60px auto;
+}
+
+.searching {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.search input {
+	display: inline-block;
+	width: 180px;
+	padding: 6px 0;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border: 0;
+	border-radius: 4px;
+	font-family: Merienda;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.searching p {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.filter {
+	display: inline-block;
+	padding-left: 80px;
+}
+
+.filter_btm_left {
+	font-family: Merienda;
+	font-size: 12px;
+	line-height: 17px;
+	background: #FFFFFF;
+	border: 0;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px 0px 0px 4px;
+	text-align: center;
+	padding: 7px 20px 5px;
+	margin-right: 5px;
+}
+
+.filter_btm_middle {
+	font-family: Merienda;
+	font-size: 12px;
+	line-height: 17px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border: 0;
+	border-radius: 0px;
+	text-align: center;
+	padding: 7px 20px 5px;
+	margin-right: 5px;
+}
+
+.filter_btm_right {
+	font-family: Merienda;
+	font-size: 12px;
+	line-height: 17px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border: 0;
+	border-radius: 0px 4px 4px 0px;
+	text-align: center;
+	padding: 7px 20px 5px;
+}
+
+.goods {
+	text-align: center;
+}
+
+.goods_price {
+	margin: 30px;
+	padding: 22px 0;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	object-fit: contain;
+	object-position: center;
+}
